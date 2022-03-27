@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Piedra Papel Tijeras</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Fira+Code&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<header>
+			<h1>Piedra Papel Tijeras</h1>
+		</header>
+
+		<div id="contenedor">
+			<div id="tagUsuario" class="insignia">Jugador</div>
+			<div class="scoreBoard">
+				<span id="puntosUsuario">0</span>:<span id="puntosCpu">0</span>
+			</div>
+			<div id="tagCpu" class="insignia">CPU</div>
+		</div>
+
+		
+
+		<div class="resultado">
+			<p>Quien llegue a 10 puntos, es el ganador</p>
+		</div>
+
+		<div class="opciones">
+			<div class="opcion" id="piedra">
+				<img src="images/piedra.png" alt="piedra">
+			</div>
+
+			<div class="opcion" id="papel">
+				<img src="images/papel.png" alt="papel">
+			</div>
+
+			<div class="opcion" id="tijeras">
+				<img src="images/tijeras.png" alt="tijeras">
+			</div>
+		</div>
+
+		<p id="mensaje">Haz tu jugada!</p>
+		<script src="main.js"></script>
+	</body>
+</html>
